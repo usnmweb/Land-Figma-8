@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(165, 36, 5);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 20px;
+}
+
+.left {
+  height: 700px;
+}
+.right {
+  height: 700px;
+}
+
+.right > h1 {
+  font-size: 80px;
+  color: white;
+  max-width: 350px;
+  font-family: "Work Sans";
+}
+
+.right > p {
+  font-size: 20px;
+  color: white;
+  max-width: 350px;
+}
+
+.right > p:hover {
+  font-size: 40px;
+  max-width: 600px;
+}
+
+.right > button {
+  font-size: 20px;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-family: "Work Sans";
+  background-color: #e5b94b;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.right > button:hover {
+  background-color: white;
+  color: #e5b94b;
+  font-size: 35px;
+}
+
+.left {
+  max-width: 875px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  max-width: 875px;
+  height: 2000px;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  background-color: #e5b94b;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  top: 10%;
+  left: 20%;
+}
+
+.dots {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.dots-img {
+  max-width: 280px;
+}
+
+.dots-img-sec {
+  max-width: 180px;
+}
+
+.dots-sec {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
